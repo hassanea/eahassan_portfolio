@@ -4,15 +4,7 @@ import FsLightbox from 'fslightbox-react';
 
 const Portfolio = (props) => {
     
-      const [toggler, setToggler] = useState(false);
-      const mr = {
-      marginRight: '8px'  
-    };
-    
-    const center = {
-      textAlign: 'center'  
-    };
-    
+      const [toggler, setToggler] = useState(false);    
 
     if(props.data){
       var projects = props.data.projects.map(function(projects){
@@ -22,7 +14,7 @@ const Portfolio = (props) => {
                <img alt={projects.title} src={projectImage} key={projects.id}/>
                <div className="overlay">
                   <div className="portfolio-item-meta">
-                 <h5 style={center}>{projects.title}</h5>
+                 <h5>{projects.title}</h5>
                   </div>
                 </div>
           </div>
@@ -62,16 +54,6 @@ sources={[
  '../images/portfolio/Udacity-Neighborhood-Map-Proj.jpg',       
  '../images/portfolio/Udacity-MyReads-Proj.jpg'      
 ]}
-customToolbarButtons={[ 
-{ 
-viewBox: '0 0 96.124 96.123', 
-d: 'M72.089,0.02L59.624,0C45.62,0,36.57,9.285,36.57,23.656v10.907H24.037c-1.083,0-1.96,0.878-1.96,1.961v15.803 c0,1.083,0.878,1.96,1.96,1.96h12.533v39.876c0,1.083,0.877,1.96,1.96,1.96h16.352c1.083,0,1.96-0.878,1.96-1.96V54.287h14.654 c1.083,0,1.96-0.877,1.96-1.96l0.006-15.803c0-0.52-0.207-1.018-0.574-1.386c-0.367-0.368-0.867-0.575-1.387-0.575H56.842v-9.246 c0-4.444,1.059-6.7,6.848-6.7l8.397-0.003c1.082,0,1.959-0.878,1.959-1.96V1.98C74.046,0.899,73.17,0.022,72.089,0.02z',
-width: '17px', 
-height: '17px', 
-title: 'Facebook', 
-onClick: () => console.log('Facebook button clicked!') 
-} 
-]} 
 initialAnimation="scale-in-long"
 slideChangeAnimation="scale-in"
 type="image"
@@ -80,91 +62,111 @@ captions={[
 <div className="lightbox-caption">          
 <h2>Omnifood Eats</h2>      
 <p>Category:  Udemy - Course Project</p>
-<p><a href="https://www.omnifood-eats.com" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" style={mr}></i> </span> Project URL </a></p>          
+<p>Omnifood Eats is a fictional food delivery service website that offers healthy meals delivered to your door. Website was created utilizing HTML5, CSS3, and jQuery.</p>          
+<p><a href="https://www.omnifood-eats.com" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" className="mr"></i> </span> Project URL </a></p>          
 </div>          
 </>, 
 <>
 <div className="lightbox-caption">          
 <h2>Kingpin Bowling Tracker</h2>
 <p>Category:  College - Senior Capstone Project</p>
-<p><a href="https://github.com/hassanea/KPBT" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" style={mr}></i> </span> Project URL </a></p>          
+<p>Kingpin is a bowling tracker web application utilized by management of bowling centers and leagues. Application was devloped with the Django web framework, HTML5, Bootstrap, and jQuery.</p>          
+<p><a href="https://github.com/hassanea/KPBT" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" className="mr"></i> </span> Project URL </a></p>          
 </div>          
 </>,
 <>  
 <div className="lightbox-caption">             
 <h2>Reroot Task Scheduler</h2>
 <p>Category:  College - Internship project</p>
-<p><a href="https://www.reroot-task-scheduler.com" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" style={mr}></i> </span> Project URL </a></p>          
+<p>Reroot Task Scheduler is CRUD (create-read-update-delete) application created to manage employee and volunteer tasks at several Reroot properties. Application was made with ReactJS, ExpressJS, NodeJS, MySQL, W3.CSS, and Material-UI.        
+</p>          
+<p><a href="https://www.reroot-task-scheduler.com" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" className="mr"></i> </span> Project URL </a></p>          
 </div>
 </>,
 <>    
 <div className="lightbox-caption">             
 <h2>Reroot Pontiac's GI Site</h2>
 <p>Category:  College - Internship project</p>
-<p><a href="http://rerootgi.com" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" style={mr}></i> </span> Project URL </a></p>          
+<p>Reroot Pontiac GI site is a website dedicated to green infrastructure in an urban setting. Site was created utilizing HTML5, Bootstrap, and jQuery.</p>          
+<p><a href="http://rerootgi.com" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" className="mr"></i> </span> Project URL </a></p>          
 </div>
 </>,
 <>
 <div className="lightbox-caption">             
 <h2>Benjamin</h2>
 <p>Category:  College - Software Engineering Project</p>
-<p><a href="http://benjamin-expense.herokuapp.com" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" style={mr}></i> </span> Project URL </a></p>          
+<p>Benjamin is a personal budgeting web application developed to track personal expenses. Application was made with the Django web framework, HTML5, Bootstrap, and jQuery.</p>          
+<p><a href="http://benjamin-expense.herokuapp.com" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" className="mr"></i> </span> Project URL </a></p>          
 </div>
 </>,
 <>
 <div className="lightbox-caption">             
 <h2>Music DB</h2>
 <p>Category:  College - Database Design and Implementation Project</p>
-<p><a href="https://ec2-18-221-229-213.us-east-2.compute.amazonaws.com/Music_DB_Final/home.php" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" style={mr}></i> </span> Project URL </a></p>          
+<p>MusicDB is a CRUD application that enables the user to input favorite <br/> music and rate their songs and albums as well as other user's picks. <br/> It was generated with HTML5, Bootstrap, jQuery, PHP, and MySQL.</p>            
+<p><a href="https://ec2-18-221-229-213.us-east-2.compute.amazonaws.com/Music_DB_Final/home.php" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" className="mr"></i> </span> Project URL </a></p>          
 </div>
 </>,
 <>
 <div className="lightbox-caption">             
 <h2>FileShare</h2>
 <p>Category:  College - System Administration Project</p>
-<p><a href="https://ec2-18-221-229-213.us-east-2.compute.amazonaws.com/Login_Final/index.php" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" style={mr}></i> </span> Project URL </a></p>          
+<p>A simple file sharing tool made using HTML5, W3.CSS, and jQuery.</p>            
+<p><a href="https://ec2-18-221-229-213.us-east-2.compute.amazonaws.com/Login_Final/index.php" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" className="mr"></i> </span> Project URL </a></p>          
 </div>
 </>,
 <>
 <div className="lightbox-caption">             
 <h2>CP-ABE Project</h2>
 <p>Category:  College - Information Security & Practice</p>
-<p><a href="https://github.com/hassanea/CP-ABE_Project" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" style={mr}></i> </span> Project URL </a></p>          
+<p>The Ciphertext Policy attribute-based encryption project executed a series of tests to determine the performance impact of varying attributes on a Linux system. Scripts were developed using the CPABE toolkit and Linux shell scripting.</p>            
+<p><a href="https://github.com/hassanea/CP-ABE_Project" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" className="mr"></i> </span> Project URL </a></p>          
 </div>
 </>,          
 <>
 <div className="lightbox-caption">             
 <h2>Sacred Heart's site</h2>
 <p>Category:  Work</p>
-<p><a href="https://www.esacredheart.org" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" style={mr}></i> </span> Project URL </a></p>          
+<p>A website developed for Sacred Heart Church that provides a functional visual layout, with improved usability, and accessibility. 
+The site generated with HTML5, Bootstrap, CSS3, JavaScript, and jQuery.
+</p>            
+<p><a href="https://www.esacredheart.org" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" className="mr"></i> </span> Project URL </a></p>          
 </div>
 </>,
 <>
 <div className="lightbox-caption">             
 <h2>Craigslist Redesign</h2>
 <p>Category:  College - Human Computer Interaction (HCI) Project</p>
-<p><a href="http://localhost:8000/images/portfolio/HCI-Proj-Craigslist.jpg" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" style={mr}></i> </span> Project URL </a></p>          
+<p>Craigslist redesign project was a proposed user interface prototype revampment. <br/> Mockup was created in Balsamiq Mockups.</p>            
+<p><a href="http://eahassan.me/images/portfolio/HCI-Proj-Craigslist.jpg" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" className="mr"></i> </span> Project URL </a></p>          
 </div>
 </>,
 <>
 <div className="lightbox-caption">             
-<h2>University Retals</h2>
+<h2>University Rentals</h2>
 <p>Category:  College - Web Systems Project</p>
-<p><a href="https://ec2-18-221-229-213.us-east-2.compute.amazonaws.com/University_Rentals/" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" style={mr}></i> </span> Project URL </a></p>          
+<p>University Rentals is a site containing apartment rental listings available for university students. 
+Website was created using HTML5, Bootstrap, CSS3, jQuery, PHP, and MySQL.          
+</p>            
+<p><a href="https://ec2-18-221-229-213.us-east-2.compute.amazonaws.com/University_Rentals/" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" className="mr"></i> </span> Project URL </a></p>          
 </div>
 </>,
 <>
 <div className="lightbox-caption">             
 <h2>Neighborhood Map</h2>
 <p>Category:  Udacity - Course Project</p>
-<p><a href="http://neighbor-map.s3-website-us-east-1.amazonaws.com" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" style={mr}></i> </span> Project URL </a></p>          
+<p>Neighborhood Map is a project that provides a listing of museums and sightseeing locations in Christchurch, New Zealand. It is Google Maps integrated and utilizes ReactJS, Bootstrap, Reactstrap, CSS3, Google Maps API, and the FourSquare API. 
+</p>            
+<p><a href="http://neighbor-map.s3-website-us-east-1.amazonaws.com" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" className="mr"></i> </span> Project URL </a></p>          
 </div>
 </>,
 <>
 <div className="lightbox-caption">             
 <h2>MyReads</h2>
 <p>Category:  Udacity - Course Project</p>
-<p><a href="http://my-reads-app.s3-website-us-east-1.amazonaws.com" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" style={mr}></i> </span> Project URL </a></p>          
+<p>MyReads is a webapp that allows a user to categorize their bookshelf. The application was created using ReactJS and CSS3.
+</p>            
+<p><a href="http://my-reads-app.s3-website-us-east-1.amazonaws.com" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" className="mr"></i> </span> Project URL </a></p>          
 </div>
 </>,          
 ]}

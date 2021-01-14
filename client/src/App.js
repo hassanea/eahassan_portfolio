@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactGA from 'react-ga';
 import './App.css';
 import SkipNav from './Components/SkipNav';
 import Header from './Components/Header';
@@ -8,9 +7,10 @@ import About from './Components/About';
 import Resume from './Components/Resume';
 import Contact from './Components/Contact';
 import Portfolio from './Components/Portfolio';
+// https://duckduckgo.com/?q=react+contact+form+aws+s3+send+email&t=osx&ia=web
 
 
-class App extends Component {
+class App extends React.Component {
 
   constructor(props){
     super(props);
@@ -21,9 +21,6 @@ class App extends Component {
       recipSubject: '',
       recipMessage: ''    
     };
-
-    ReactGA.initialize('UA-177826213-1');
-    ReactGA.pageview(window.location.pathname + window.location.search);
     this.handleChange = this.handleChange.bind(this);
     this.handleCaptchaChange = this.handleCaptchaChange.bind(this);
     this.handleEmailSent = this.handleEmailSent.bind(this);  

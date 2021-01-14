@@ -33,7 +33,7 @@ const About = (props) => {
                </div>
                <div className="columns download">
                   <p>
-                     <a href={resumeDownload} className="button" title="Download resumé" rel="noopener noreferrer" target="_blank"><span className="mr"><i className="fa fa-download"></i></span>Download Resume</a>
+                     <a href={resumeDownload} className="button" title="Download resumé" rel="noopener noreferrer" target="_blank"><span className="mr"><i className="fa fa-download"></i></span>Download Resumé</a>
                   </p>
                </div>
             </div>
