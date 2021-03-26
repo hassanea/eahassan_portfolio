@@ -40,6 +40,7 @@ const Portfolio = (props) => {
             <FsLightbox 
 toggler={toggler} 
 sources={[ 
+ '../images/portfolio/Udemy-uHost-Proj.jpg',         
  '../images/portfolio/Udemy-Omnifood-Proj.jpg',
  '../images/portfolio/Senior-Capstone-Proj-KPBT.jpg',       
  '../images/portfolio/RP-GIS-Todos-App.jpg',       
@@ -58,6 +59,14 @@ initialAnimation="scale-in-long"
 slideChangeAnimation="scale-in"
 type="image"
 captions={[ 
+<> 
+<div className="lightbox-caption">          
+<h2>uHost Solutions</h2>      
+<p>Category:  Udemy - Course Project</p>
+<p>uHost is an imaginary web hosting service that offers several monthly plans based on website / webapp requirements. Website was made with HTML5, CSS3, and JavaScript.</p>          
+<p><a href="https://uhost.solutions" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" className="mr"></i> </span> Project URL </a></p>          
+</div>          
+</>,                
 <> 
 <div className="lightbox-caption">          
 <h2>Omnifood Eats</h2>      

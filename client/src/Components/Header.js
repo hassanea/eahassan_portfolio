@@ -1,5 +1,7 @@
 import React from 'react';
-import Nav from './Nav';
+import loadable from '@loadable/component';
+const Nav = loadable(() => import('./Nav'));
+
 
 const Header = (props) => {
 

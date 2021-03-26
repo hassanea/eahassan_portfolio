@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
 import './App.css';
-import SkipNav from './Components/SkipNav';
-import Header from './Components/Header';
-import Footer from './Components/Footer';
-import About from './Components/About';
-import Resume from './Components/Resume';
-import Contact from './Components/Contact';
-import Portfolio from './Components/Portfolio';
-// https://duckduckgo.com/?q=react+contact+form+aws+s3+send+email&t=osx&ia=web
+import loadable from '@loadable/component';
+const SkipNav = loadable(() => import('./Components/SkipNav'));
+const Header = loadable(() => import('./Components/Header'));
+const Footer = loadable(() => import('./Components/Footer'));
+const About = loadable(() => import('./Components/About'));
+const Resume = loadable(() => import('./Components/Resume'));
+const Contact = loadable(() => import('./Components/Contact'));
+const Portfolio = loadable(() => import('./Components/Portfolio'));
+
 
 
 class App extends React.Component {

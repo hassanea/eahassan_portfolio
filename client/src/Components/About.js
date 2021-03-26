@@ -16,7 +16,7 @@ const About = (props) => {
       <section id="about">
       <div className="row">
          <div className="three columns">
-            <img className="profile-pic"  src={profilepic} alt="Evan Hassan's Profile Pic" />
+            <img src={profilepic} className="profile-pic" alt="Evan Hassan's Profile Pic" />
          </div>
          <div className="nine columns main-col">
             <h2>{props.title}</h2>
