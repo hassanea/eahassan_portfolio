@@ -35,11 +35,13 @@ const Portfolio = (props) => {
                 {projects} 
             </div>
             <div className="btn-slideshow">
-              <button onClick={() => setToggler(!toggler)}><span className="mr"><i className="far fa-images"></i></span>Click to view Slideshow</button>
+              <button onClick={() => setToggler(!toggler)}><span className="mr"><i className="far fa-images"></i></span>View Slideshow</button>
             </div>
             <FsLightbox 
 toggler={toggler} 
 sources={[ 
+ '../images/portfolio/Udemy-EdgeLedger-Proj.jpg',         
+ '../images/portfolio/Udemy-Hotel_BT-Proj.jpg',         
  '../images/portfolio/Udemy-uHost-Proj.jpg',         
  '../images/portfolio/Udemy-Omnifood-Proj.jpg',
  '../images/portfolio/Senior-Capstone-Proj-KPBT.jpg',       
@@ -58,7 +60,23 @@ sources={[
 initialAnimation="scale-in-long"
 slideChangeAnimation="scale-in"
 type="image"
-captions={[ 
+captions={[
+<> 
+<div className="lightbox-caption">          
+<h2>EdgeLedger Inc.</h2>      
+<p>Category:  Udemy - Course Project</p>
+<p>EdgeLedger, Inc. is a fictitious financial investment firm that supplies investment banking, asset portfolios, and tax services. Website was produced with HTML5, CSS3, and JavaScript.</p>          
+<p><a href="#" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" className="mr"></i> </span> Project URL TBD... </a></p>  
+</div>          
+</>,
+<> 
+<div className="lightbox-caption">          
+<h2>Hotel BT</h2>      
+<p>Category:  Udemy - Course Project</p>
+<p>Hotel BT is a make-believe luxury hotel in downtown Boston. Website was constructed with HTML5, and CSS3.</p>          
+<p><a href="#" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" className="mr"></i> </span> Project URL TBD... </a></p>
+</div>          
+</>,          
 <> 
 <div className="lightbox-caption">          
 <h2>uHost Solutions</h2>      
