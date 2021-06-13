@@ -66,7 +66,7 @@ captions={[
 <h2>EdgeLedger Inc.</h2>      
 <p>Category:  Udemy - Course Project</p>
 <p>EdgeLedger, Inc. is a fictitious financial investment firm that supplies investment banking, asset portfolios, and tax services. Website was produced with HTML5, CSS3, and JavaScript.</p>          
-<p><a href="#" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" className="mr"></i> </span> Project URL TBD... </a></p>  
+<p><a href="https://www.edgeledger.financial" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" className="mr"></i> </span> Project URL</a></p>  
 </div>          
 </>,
 <> 
@@ -74,7 +74,7 @@ captions={[
 <h2>Hotel BT</h2>      
 <p>Category:  Udemy - Course Project</p>
 <p>Hotel BT is a make-believe luxury hotel in downtown Boston. Website was constructed with HTML5, and CSS3.</p>          
-<p><a href="#" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" className="mr"></i> </span> Project URL TBD... </a></p>
+<p><a href="https://www.hotel-bt.online" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" className="mr"></i> </span> Project URL</a></p>
 </div>          
 </>,          
 <> 
