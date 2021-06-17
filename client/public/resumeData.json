@@ -108,38 +108,6 @@
         "projects": [
             {
                 "id": "1",
-                "title": "EdgeLedger Inc.",
-                "category": "Udemy course Project",
-                "description": "EdgeLedger, Inc. is a fictitious financial investment firm that supplies investment banking, asset portfolios, and tax services. Website was produced with HTML5, CSS3, and JavaScript.",
-                "image": "Udemy-EdgeLedger-Proj.jpg",
-                "url": "https://www.edgeledger.financial"
-            },
-            {
-                "id": "2",
-                "title": "Hotel BT",
-                "category": "Udemy course Project",
-                "description": "Hotel BT is a make-believe luxury hotel in downtown Boston. Website was constructed with HTML5, and CSS3.",
-                "image": "Udemy-Hotel_BT-Proj.jpg",
-                "url": "https://www.hotel-bt.online"
-            },
-            {
-                "id": "3",
-                "title": "uHost Solutions Web Hosting",
-                "category": "Udemy course Project",
-                "description": "uHost is an imaginary web hosting service that offers several monthly plans based on website / webapp requirements. Website was made with HTML5, CSS3, and JavaScript.",
-                "image": "Udemy-uHost-Proj.jpg",
-                "url": "https://uhost.solutions"
-            },
-            {
-                "id": "4",
-                "title": "Omnifood Eats",
-                "category": "Udemy course Project",
-                "description": "Omnifood Eats is a fictional food delivery service website that offers healthy meals delivered to your door. Website was created utilizing HTML5, CSS3, and jQuery.",
-                "image": "Udemy-Omnifood-Proj.jpg",
-                "url": "https://www.omnifood-eats.com"
-            },
-            {
-                "id": "5",
                 "title": "Senior Capstone Project",
                 "category": "College - Senior Capstone Project",
                 "description": "Kingpin is a bowling tracker web application utilized by management of bowling centers and leagues. Application was devloped with the Django web framework, HTML5, Bootstrap, and jQuery.",
@@ -147,15 +115,16 @@
                 "url": "https://github.com/hassanea/KPBT"
             },
             {
-                "id": "6",
+                "id": "2",
                 "title": "Reroot Task Scheduler",
                 "category": "College - Internship project",
                 "description": "Reroot Task Scheduler is CRUD (create-read-update-delete) application created to manage employee and volunteer tasks at several Reroot properties. Application was made with ReactJS, ExpressJS, NodeJS, MySQL, W3.CSS, and Material-UI.",
                 "image": "RP-GIS-Todos-App.jpg",
                 "url": "https://www.reroot-task-scheduler.com"
             },
-            {
-                "id": "7",
+            
+             {
+                "id": "3",
                 "title": "Reroot Pontiac's Green Infrastructure Site",
                 "category": "College - Internship project",
                 "description": "Reroot Pontiac GI site is a website dedicated to green infrastructure in an urban setting. Site was created utilizing HTML5, Bootstrap, and jQuery.",
@@ -163,39 +132,7 @@
                 "url": "http://rerootgi.com"
             },
             {
-                "id": "8",
-                "title": "Software Engineering Project",
-                "category": "College - Software Engineering Project",
-                "description": "Benjamin is a personal budgeting web application developed to track personal expenses. Application was made with the Django web framework, HTML5, Bootstrap, and jQuery.",
-                "image": "SE-Proj-Benjamin.jpg",
-                "url": "http://benjamin-expense.herokuapp.com"
-            },
-            {
-                "id": "9",
-                "title": "Database Design and Implementation Project",
-                "category": "College - Database Design and Implementation Project",
-                "description": "MusicDB is a CRUD application that enables the user to input favorite music and rate their songs and albums as well as other user's picks. It was generated with HTML5, Bootstrap, jQuery, PHP, and MySQL.",
-                "image": "DB-Design-Proj-Music_DB.jpg",
-                "url": "https://ec2-18-221-229-213.us-east-2.compute.amazonaws.com/Music_DB_Final/home.php"
-            },
-            {
-                "id": "10",
-                "title": "System Administration Project",
-                "category": "College - System Administration Project",
-                "description": "A simple file sharing tool made using HTML5, W3.CSS, and jQuery.",
-                "image": "SysAdmin-Proj-FileShare.jpg",
-                "url": "https://ec2-18-221-229-213.us-east-2.compute.amazonaws.com/Login_Final/index.php"
-            },
-            {
-                "id": "11",
-                "title": "Information Security Project",
-                "category": "College - Information Security & Practice",
-                "description": "The Ciphertext Policy attribute-based encryption project executed a series of tests to determine the performance impact of varying attributes on a Linux system. Scripts were developed using the CPABE toolkit and Linux shell scripting.",
-                "image": "Info-Secure&Practice.Proj-cpabe.jpg",
-                "url": "https://github.com/hassanea/CP-ABE_Project"
-            },
-            {
-                "id": "12",
+                "id": "4",
                 "title": "Sacred Heart Church Site",
                 "category": "Work",
                 "description": "A website developed for Sacred Heart Church that provides a functional visual layout, with improved usability, and accessibility. The site generated with HTML5, Bootstrap, CSS3, JavaScript, and jQuery.",
@@ -203,19 +140,85 @@
                 "url": "https://www.esacredheart.org"
             },
             {
-                "id": "13",
-                "title": "Human Computer Interaction Project",
-                "category": "College - Human Computer Interaction (HCI) Project",
-                "description": "Craigslist redesign project was a proposed user interface prototype revampment. Mockup was created in Balsamiq Mockups.",
-                "image": "HCI-Proj-Craigslist.jpg"
+                "id": "5",
+                "title": "Database Design and Implementation Project",
+                "category": "College - Database Design and Implementation Project",
+                "description": "MusicDB is a CRUD application that enables the user to input favorite music and rate their songs and albums as well as other user's picks. It was generated with HTML5, Bootstrap, jQuery, PHP, and MySQL.",
+                "image": "DB-Design-Proj-Music_DB.jpg",
+                "url": "https://ec2-18-221-229-213.us-east-2.compute.amazonaws.com/Music_DB_Final/home.php"
             },
             {
-                "id": "14",
+                "id": "6",
+                "title": "System Administration Project",
+                "category": "College - System Administration Project",
+                "description": "A simple file sharing tool made using HTML5, W3.CSS, and jQuery.",
+                "image": "SysAdmin-Proj-FileShare.jpg",
+                "url": "https://ec2-18-221-229-213.us-east-2.compute.amazonaws.com/Login_Final/index.php"
+            },
+
+            
+            {
+                "id": "7",
+                "title": "Udacity - MyReads Project",
+                "category": "Udacity - Course Project",
+                "description": "MyReads is a webapp that allows a user to categorize their bookshelf. The application was created using ReactJS and CSS3.",
+                "image": "Udacity-MyReads-Proj.jpg",
+                "url": "http://my-reads-app.s3-website-us-east-1.amazonaws.com"
+            },
+            {
+                "id": "8",
                 "title": "Website Design Project",
                 "category": "College - Web Systems Project",
                 "description": "University Rentals is a site containing apartment rental listings available for university students. Website was created using HTML5, Bootstrap, CSS3, jQuery, PHP, and MySQL.",
                 "image": "Web-Systems-Proj-Univ-Rentals.jpg",
                 "url": "https://ec2-18-221-229-213.us-east-2.compute.amazonaws.com/University_Rentals/"
+            },
+            {
+                "id": "9",
+                "title": "EdgeLedger Inc.",
+                "category": "Udemy course Project",
+                "description": "EdgeLedger, Inc. is a fictitious financial investment firm that supplies investment banking, asset portfolios, and tax services. Website was produced with HTML5, CSS3, and JavaScript.",
+                "image": "Udemy-EdgeLedger-Proj.jpg",
+                "url": "https://www.edgeledger.financial"
+            },
+            {
+                "id": "10",
+                "title": "Hotel BT",
+                "category": "Udemy course Project",
+                "description": "Hotel BT is a make-believe luxury hotel in downtown Boston. Website was constructed with HTML5, and CSS3.",
+                "image": "Udemy-Hotel_BT-Proj.jpg",
+                "url": "https://www.hotel-bt.online"
+            },
+            {
+                "id": "11",
+                "title": "uHost Solutions Web Hosting",
+                "category": "Udemy course Project",
+                "description": "uHost is an imaginary web hosting service that offers several monthly plans based on website / webapp requirements. Website was made with HTML5, CSS3, and JavaScript.",
+                "image": "Udemy-uHost-Proj.jpg",
+                "url": "https://uhost.solutions"
+            },
+            {
+                "id": "12",
+                "title": "Omnifood Eats",
+                "category": "Udemy course Project",
+                "description": "Omnifood Eats is a fictional food delivery service website that offers healthy meals delivered to your door. Website was created utilizing HTML5, CSS3, and jQuery.",
+                "image": "Udemy-Omnifood-Proj.jpg",
+                "url": "https://www.omnifood-eats.com"
+            },
+            {
+                "id": "13",
+                "title": "Information Security Project",
+                "category": "College - Information Security & Practice",
+                "description": "The Ciphertext Policy attribute-based encryption project executed a series of tests to determine the performance impact of varying attributes on a Linux system. Scripts were developed using the CPABE toolkit and Linux shell scripting.",
+                "image": "Info-Secure&Practice.Proj-cpabe.jpg",
+                "url": "https://github.com/hassanea/CP-ABE_Project"
+            },
+            {
+                "id": "14",
+                "title": "Human Computer Interaction Project",
+                "category": "College - Human Computer Interaction (HCI) Project",
+                "description": "Craigslist redesign project was a proposed user interface prototype revampment. Mockup was created in Balsamiq Mockups.",
+                "image": "HCI-Proj-Craigslist.jpg"
             },
             {
                 "id": "15",
@@ -227,11 +230,11 @@
             },
             {
                 "id": "16",
-                "title": "Udacity - MyReads Project",
-                "category": "Udacity - Course Project",
-                "description": "MyReads is a webapp that allows a user to categorize their bookshelf. The application was created using ReactJS and CSS3.",
-                "image": "Udacity-MyReads-Proj.jpg",
-                "url": "http://my-reads-app.s3-website-us-east-1.amazonaws.com"
+                "title": "Software Engineering Project",
+                "category": "College - Software Engineering Project",
+                "description": "Benjamin is a personal budgeting web application developed to track personal expenses. Application was made with the Django web framework, HTML5, Bootstrap, and jQuery.",
+                "image": "SE-Proj-Benjamin.jpg",
+                "url": "http://benjamin-expense.herokuapp.com"
             }
         ]
     }

@@ -39,60 +39,28 @@ const Portfolio = (props) => {
             </div>
             <FsLightbox 
 toggler={toggler} 
-sources={[ 
- '../images/portfolio/Udemy-EdgeLedger-Proj.jpg',         
- '../images/portfolio/Udemy-Hotel_BT-Proj.jpg',         
- '../images/portfolio/Udemy-uHost-Proj.jpg',         
- '../images/portfolio/Udemy-Omnifood-Proj.jpg',
- '../images/portfolio/Senior-Capstone-Proj-KPBT.jpg',       
- '../images/portfolio/RP-GIS-Todos-App.jpg',       
- '../images/portfolio/RP-GI-Site.jpg',       
- '../images/portfolio/SE-Proj-Benjamin.jpg',       
+sources={[          
+ '../images/portfolio/Senior-Capstone-Proj-KPBT.jpg',
+ '../images/portfolio/RP-GIS-Todos-App.jpg',
+ '../images/portfolio/RP-GI-Site.jpg',            
+ '../images/portfolio/SH-site.jpg',  
  '../images/portfolio/DB-Design-Proj-Music_DB.jpg',       
  '../images/portfolio/SysAdmin-Proj-FileShare.jpg',
 '../images/portfolio/Info-Secure&Practice.Proj-cpabe.jpg',         
- '../images/portfolio/SH-site.jpg',       
  '../images/portfolio/HCI-Proj-Craigslist.jpg',       
- '../images/portfolio/Web-Systems-Proj-Univ-Rentals.jpg',       
+ '../images/portfolio/Web-Systems-Proj-Univ-Rentals.jpg',        
+ '../images/portfolio/Udemy-EdgeLedger-Proj.jpg',  
+ '../images/portfolio/Udemy-Hotel_BT-Proj.jpg',  
+ '../images/portfolio/Udemy-uHost-Proj.jpg',  
+ '../images/portfolio/Udemy-Omnifood-Proj.jpg',
  '../images/portfolio/Udacity-Neighborhood-Map-Proj.jpg',       
- '../images/portfolio/Udacity-MyReads-Proj.jpg'      
+ '../images/portfolio/Udacity-MyReads-Proj.jpg',
+ '../images/portfolio/SE-Proj-Benjamin.jpg'         
 ]}
 initialAnimation="scale-in-long"
 slideChangeAnimation="scale-in"
 type="image"
 captions={[
-<> 
-<div className="lightbox-caption">          
-<h2>EdgeLedger Inc.</h2>      
-<p>Category:  Udemy - Course Project</p>
-<p>EdgeLedger, Inc. is a fictitious financial investment firm that supplies investment banking, asset portfolios, and tax services. Website was produced with HTML5, CSS3, and JavaScript.</p>          
-<p><a href="https://www.edgeledger.financial" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" className="mr"></i> </span> Project URL</a></p>  
-</div>          
-</>,
-<> 
-<div className="lightbox-caption">          
-<h2>Hotel BT</h2>      
-<p>Category:  Udemy - Course Project</p>
-<p>Hotel BT is a make-believe luxury hotel in downtown Boston. Website was constructed with HTML5, and CSS3.</p>          
-<p><a href="https://www.hotel-bt.online" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" className="mr"></i> </span> Project URL</a></p>
-</div>          
-</>,          
-<> 
-<div className="lightbox-caption">          
-<h2>uHost Solutions</h2>      
-<p>Category:  Udemy - Course Project</p>
-<p>uHost is an imaginary web hosting service that offers several monthly plans based on website / webapp requirements. Website was made with HTML5, CSS3, and JavaScript.</p>          
-<p><a href="https://uhost.solutions" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" className="mr"></i> </span> Project URL </a></p>          
-</div>          
-</>,                
-<> 
-<div className="lightbox-caption">          
-<h2>Omnifood Eats</h2>      
-<p>Category:  Udemy - Course Project</p>
-<p>Omnifood Eats is a fictional food delivery service website that offers healthy meals delivered to your door. Website was created utilizing HTML5, CSS3, and jQuery.</p>          
-<p><a href="https://www.omnifood-eats.com" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" className="mr"></i> </span> Project URL </a></p>          
-</div>          
-</>, 
 <>
 <div className="lightbox-caption">          
 <h2>Kingpin Bowling Tracker</h2>
@@ -117,13 +85,15 @@ captions={[
 <p>Reroot Pontiac GI site is a website dedicated to green infrastructure in an urban setting. Site was created utilizing HTML5, Bootstrap, and jQuery.</p>          
 <p><a href="http://rerootgi.com" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" className="mr"></i> </span> Project URL </a></p>          
 </div>
-</>,
+</>,          
 <>
 <div className="lightbox-caption">             
-<h2>Benjamin</h2>
-<p>Category:  College - Software Engineering Project</p>
-<p>Benjamin is a personal budgeting web application developed to track personal expenses. Application was made with the Django web framework, HTML5, Bootstrap, and jQuery.</p>          
-<p><a href="http://benjamin-expense.herokuapp.com" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" className="mr"></i> </span> Project URL </a></p>          
+<h2>Sacred Heart's site</h2>
+<p>Category:  Work</p>
+<p>A website developed for Sacred Heart Church that provides a functional visual layout, with improved usability, and accessibility. 
+The site generated with HTML5, Bootstrap, CSS3, JavaScript, and jQuery.
+</p>            
+<p><a href="https://www.esacredheart.org" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" className="mr"></i> </span> Project URL </a></p>          
 </div>
 </>,
 <>
@@ -152,22 +122,12 @@ captions={[
 </>,          
 <>
 <div className="lightbox-caption">             
-<h2>Sacred Heart's site</h2>
-<p>Category:  Work</p>
-<p>A website developed for Sacred Heart Church that provides a functional visual layout, with improved usability, and accessibility. 
-The site generated with HTML5, Bootstrap, CSS3, JavaScript, and jQuery.
-</p>            
-<p><a href="https://www.esacredheart.org" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" className="mr"></i> </span> Project URL </a></p>          
-</div>
-</>,
-<>
-<div className="lightbox-caption">             
 <h2>Craigslist Redesign</h2>
 <p>Category:  College - Human Computer Interaction (HCI) Project</p>
 <p>Craigslist redesign project was a proposed user interface prototype revampment. <br/> Mockup was created in Balsamiq Mockups.</p>            
 <p><a href="http://eahassan.me/images/portfolio/HCI-Proj-Craigslist.jpg" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" className="mr"></i> </span> Project URL </a></p>          
 </div>
-</>,
+</>,            
 <>
 <div className="lightbox-caption">             
 <h2>University Rentals</h2>
@@ -177,7 +137,39 @@ Website was created using HTML5, Bootstrap, CSS3, jQuery, PHP, and MySQL.
 </p>            
 <p><a href="https://ec2-18-221-229-213.us-east-2.compute.amazonaws.com/University_Rentals/" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" className="mr"></i> </span> Project URL </a></p>          
 </div>
+</>,  
+<> 
+<div className="lightbox-caption">          
+<h2>EdgeLedger Inc.</h2>      
+<p>Category:  Udemy - Course Project</p>
+<p>EdgeLedger, Inc. is a fictitious financial investment firm that supplies investment banking, asset portfolios, and tax services. Website was produced with HTML5, CSS3, and JavaScript.</p>          
+<p><a href="https://www.edgeledger.financial" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" className="mr"></i> </span> Project URL</a></p>  
+</div>          
+</>,          
+<> 
+<div className="lightbox-caption">          
+<h2>Hotel BT</h2>      
+<p>Category:  Udemy - Course Project</p>
+<p>Hotel BT is a make-believe luxury hotel in downtown Boston. Website was constructed with HTML5, and CSS3.</p>          
+<p><a href="https://www.hotel-bt.online" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" className="mr"></i> </span> Project URL</a></p>
+</div>          
 </>,
+<> 
+<div className="lightbox-caption">          
+<h2>uHost Solutions</h2>      
+<p>Category:  Udemy - Course Project</p>
+<p>uHost is an imaginary web hosting service that offers several monthly plans based on website / webapp requirements. Website was made with HTML5, CSS3, and JavaScript.</p>          
+<p><a href="https://uhost.solutions" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" className="mr"></i> </span> Project URL </a></p>          
+</div>          
+</>,           
+<> 
+<div className="lightbox-caption">          
+<h2>Omnifood Eats</h2>      
+<p>Category:  Udemy - Course Project</p>
+<p>Omnifood Eats is a fictional food delivery service website that offers healthy meals delivered to your door. Website was created utilizing HTML5, CSS3, and jQuery.</p>          
+<p><a href="https://www.omnifood-eats.com" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" className="mr"></i> </span> Project URL </a></p>          
+</div>          
+</>,  
 <>
 <div className="lightbox-caption">             
 <h2>Neighborhood Map</h2>
@@ -186,7 +178,8 @@ Website was created using HTML5, Bootstrap, CSS3, jQuery, PHP, and MySQL.
 </p>            
 <p><a href="http://neighbor-map.s3-website-us-east-1.amazonaws.com" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" className="mr"></i> </span> Project URL </a></p>          
 </div>
-</>,
+</>,           
+          
 <>
 <div className="lightbox-caption">             
 <h2>MyReads</h2>
@@ -195,7 +188,25 @@ Website was created using HTML5, Bootstrap, CSS3, jQuery, PHP, and MySQL.
 </p>            
 <p><a href="http://my-reads-app.s3-website-us-east-1.amazonaws.com" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" className="mr"></i> </span> Project URL </a></p>          
 </div>
-</>,          
+</>, 
+  
+          
+
+
+               
+
+
+          
+        
+                   
+<>
+<div className="lightbox-caption">             
+<h2>Benjamin</h2>
+<p>Category:  College - Software Engineering Project</p>
+<p>Benjamin is a personal budgeting web application developed to track personal expenses. Application was made with the Django web framework, HTML5, Bootstrap, and jQuery.</p>          
+<p><a href="http://benjamin-expense.herokuapp.com" rel="noopener noreferrer" target="_blank"><span> <i className="fa fa-link" className="mr"></i> </span> Project URL </a></p>          
+</div>
+</>
 ]}
 />     
         
